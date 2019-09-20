@@ -1,0 +1,43 @@
+.border-none {
+    border: none;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.img-medium {
+    max-width: 89px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.37);
+    transition: 0.5s;
+}
+
+.img-medium:hover {
+    box-shadow: none;
+}
+
+.con {
+    margin-top: 2%;
+}
+
+section {
+    background: white;
+}
+
+.bg-abu {
+    background: #eee;
+}
+
+@media screen and (max-width: 480px) {
+    #sliderMitra {
+        display: none;
+    }
+}
+
+.babyContainer {
+    background: white;
+    max-width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 0px;
+}
